@@ -20,13 +20,14 @@ export const HeaderContainer = styled.header`
       justify-content: center;
       align-items: center;
 
-      color: ${(props) => props.theme['orange-300']};
+      color: ${(props) => props.theme['white']};
 
       border-top: 3px solid transparent;
       border-bottom: 3px solid transparent;
 
       &:hover {
-        border-bottom: 3px solid ${(props) => props.theme['coral-800']};
+        border-bottom: 3px solid ${(props) => props.theme['yellow-800']};
+        color: ${(props) => props.theme['yellow-800']};
       }
 
       &.active {

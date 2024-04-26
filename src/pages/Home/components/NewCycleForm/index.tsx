@@ -17,7 +17,7 @@ export function NewCycleForm() {
 
       <label htmlFor="minutesAmount">durante</label>
       <MinutesAmountInput
-        placeholder="00"
+        placeholder="Dê um nome para o seu projeto"
       />
 
       <span>minutos.</span>
